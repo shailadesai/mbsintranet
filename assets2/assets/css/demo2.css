@@ -1,0 +1,29 @@
+/*** css other than common css ***/
+.scroll-menu-wrapper.horizontal {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 100%;
+  top: 10px;
+  white-space: nowrap;
+  padding: 0 30px;
+}
+.scroll-menu-wrapper.horizontal .scroll-anchor {
+  height: 10px;
+  display: inline-block;
+}
+.scroll-menu-wrapper.horizontal .scroll-handle {
+  width: 60px;
+  height: 10px;
+}
+.scroll-menu-wrapper.horizontal .scroll-menu-content {
+  top: 10px;
+  width: 100%;
+  height: 0;
+}
+.scroll-menu-wrapper.horizontal .scroll-menu-content.hovered {
+  height: 60px;
+}
